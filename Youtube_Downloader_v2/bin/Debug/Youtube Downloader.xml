@@ -1,0 +1,101 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+YoutubeDownloader
+</name>
+</assembly>
+<members>
+<member name="P:Youtube_Downloader_v2.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Youtube_Downloader_v2.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Youtube_Downloader_v2.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="E:Youtube_Downloader_v2.ProgressbarWithPercentage.ValueChanged">
+	<summary>Occurs when the value of the progress bar is changed</summary>
+</member><member name="E:Youtube_Downloader_v2.ProgressbarWithPercentage.PercentageDecimalsChanged">
+	<summary>Occurs when the amount of decimals to be displayed in the percentage is changed</summary>
+</member><member name="E:Youtube_Downloader_v2.ProgressbarWithPercentage.PercentageVisibleChanged">
+	<summary>Occurs when the visibility of the percentage text is changed</summary>
+</member><member name="E:Youtube_Downloader_v2.ProgressbarWithPercentage.AutoUpdatePercentageChanged">
+	<summary>Occurs when the automatic updating of the percentage is turned on or off</summary>
+</member><member name="E:Youtube_Downloader_v2.ProgressbarWithPercentage.OverlayTextColorChanged">
+	<summary>Occurs when the OverlayTextColor property is changed</summary>
+</member><member name="E:Youtube_Downloader_v2.ProgressbarWithPercentage.TextColorChanged">
+	<summary>Occurs when the TextColor property is changed</summary>
+</member><member name="E:Youtube_Downloader_v2.ProgressbarWithPercentage.PercentageAlignChanged">
+	<summary>Occurs when the align of the percentage text is changed</summary>
+</member><member name="E:Youtube_Downloader_v2.ProgressbarWithPercentage.DisplayFormatChanged">
+	<summary>Occurs when the display format is changed</summary>
+</member><member name="E:Youtube_Downloader_v2.ProgressbarWithPercentage.PaddingChanged">
+	<summary>Occurs when the padding of the percentage text is changed</summary>
+</member><member name="M:Youtube_Downloader_v2.ProgressbarWithPercentage.#ctor">
+	<summary>Create a new instance of a ProgressbarWithPercentage</summary>
+</member><member name="M:Youtube_Downloader_v2.ProgressbarWithPercentage.PerformStep">
+	<summary>Advances the current possition of the progressbar by the amount of the Step property</summary>
+</member><member name="M:Youtube_Downloader_v2.ProgressbarWithPercentage.ShowPercentage">
+	<summary>Show the current percentage as text</summary>
+</member><member name="M:Youtube_Downloader_v2.ProgressbarWithPercentage.ShowText(System.String)">
+	<summary>Display a string on the progressbar</summary>
+	<param name="text">Required. String. The string to display</param>
+</member><member name="T:Youtube_Downloader_v2.ProgressbarWithPercentage">
+	<summary>Component that extends the native .net progressbar with percentage properties and the ability to overlay the percentage</summary>
+	<remarks>Component ProgressbarWithPercentage v1.0.10, by De Dauw Jeroen - November 2009</remarks>
+</member><member name="T:Youtube_Downloader_v2.ListViewEmbeddedControls.ListViewEx.EmbeddedControl">
+	<summary>
+ Structure to hold an embedded control's info
+ </summary>
+</member><member name="M:Youtube_Downloader_v2.ListViewEmbeddedControls.ListViewEx.GetColumnOrder">
+	<summary>
+ Retrieve the order in which columns appear
+ </summary>
+	<returns>Current display order of column indices</returns>
+</member><member name="M:Youtube_Downloader_v2.ListViewEmbeddedControls.ListViewEx.GetSubItemBounds(System.Windows.Forms.ListViewItem,System.Int32)">
+	<summary>
+ Retrieve the bounds of a ListViewSubItem
+ </summary>
+	<param name="Item">The Item containing the SubItem</param>
+	<param name="SubItem">Index of the SubItem</param>
+	<returns>Subitem's bounds</returns>
+</member><member name="M:Youtube_Downloader_v2.ListViewEmbeddedControls.ListViewEx.AddEmbeddedControl(System.Windows.Forms.Control,System.Int32,System.Int32)">
+	<summary>
+ Add a control to the ListView
+ </summary>
+	<param name="c">Control to be added</param>
+	<param name="col">Index of column</param>
+	<param name="row">Index of row</param>
+</member><member name="M:Youtube_Downloader_v2.ListViewEmbeddedControls.ListViewEx.AddEmbeddedControl(System.Windows.Forms.Control,System.Int32,System.Int32,System.Windows.Forms.DockStyle)">
+	<summary>
+ Add a control to the ListView
+ </summary>
+	<param name="c">Control to be added</param>
+	<param name="col">Index of column</param>
+	<param name="row">Index of row</param>
+	<param name="dock">Location and resize behavior of embedded control</param>
+</member><member name="M:Youtube_Downloader_v2.ListViewEmbeddedControls.ListViewEx.RemoveEmbeddedControl(System.Windows.Forms.Control)">
+	<summary>
+ Remove a control from the ListView
+ </summary>
+	<param name="c">Control to be removed</param>
+</member><member name="M:Youtube_Downloader_v2.ListViewEmbeddedControls.ListViewEx.GetEmbeddedControl(System.Int32,System.Int32)">
+	<summary>
+ Retrieve the control embedded at a given location
+ </summary>
+	<param name="col">Index of Column</param>
+	<param name="row">Index of Row</param>
+	<returns>Control found at given location or null if none assigned.</returns>
+</member><member name="T:Youtube_Downloader_v2.ListViewEmbeddedControls.ListViewEx">
+	<summary>
+ Zusammenfassung für ListViewEx.
+ </summary>
+</member>
+</members>
+</doc>
